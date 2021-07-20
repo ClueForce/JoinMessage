@@ -1,0 +1,2 @@
+# JoinMessagePlus
+Advanced JoinMessage plugin
