@@ -1,0 +1,10 @@
+# JoinMessage Plugin
+# By ClueForce
+# Version : 1.0.0
+
+message:
+  command:
+    reload: "§7[§aJoin§fMessage§7] &eReloading the Plugin"
+    no-permission: "§7[§aJoin§fMessage§7] &cSorry, you don't have Permission to execute this Command!"
+  join-message: "&e%player_name% &aJoined the server!"
+  quit-message: "&e%player_name% &cDisconnect from the server!"
