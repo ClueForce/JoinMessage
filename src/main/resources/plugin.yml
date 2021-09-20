@@ -1,0 +1,52 @@
+name: JoinMessage
+version: '${project.version}'
+main: me.clueforce.joinmessage.BukkitPlugin
+api-version: 1.13
+depend: [ PlaceholderAPI ]
+authors: [ ClueForce ]
+description: Customize your Join and Quit message, support Title and Subtitle!
+commands:
+  joinmessage:
+    description: Main Staff Only Command
+    aliases: [jm]
+  discord:
+    description: Display Discord Link
+    aliases: [dc]
+  forum:
+    description: Display Forum Link
+    aliases: [forums]
+  store:
+    description: Display Store Link
+    aliases: [webstore]
+  website:
+    description: Display Website Link
+    aliases: [site, web]
+  info:
+    description: Server Information
+    aliases: [serverinformation, information, serverinfo]
+
+permissions:
+  jm.join.chat:
+    description: Send messages in player's chat
+    default: op
+  jm.join.title:
+    description: Send messages in player's title
+    default: op
+  jm.join.subtitle:
+    description: Send messages in player's subtitle
+    default: op
+  jm.admin.updater:
+    description: Send update alert
+    default: op
+  jm.admin.add:
+    description: Add line for Info
+    default: op
+  jm.admin.reload:
+    description: Reload the plugin
+    default: op
+  jm.admin.remove:
+    description: Remove line for Info
+    default: op
+  jm.admin.set:
+    description: Set line for Info
+    default: op
