@@ -36,9 +36,10 @@ options:
   website-enabled: true
   info-enabled: true
 
-player:
-  on-join: '&7[&a+&7] &e%player% &aJoined the server'
-  on-quit: '&7[&a-&7] &e%player% &cDisconnect from the server'
+# This features is Maintenance!
+# player:
+#  on-join: '&7[&a+&7] &e%player% &aJoined the server'
+#  on-quit: '&7[&a-&7] &e%player% &cDisconnect from the server'
 
 chat:
   enabled: true
